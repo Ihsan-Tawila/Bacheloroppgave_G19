@@ -6,10 +6,10 @@ float maxVerdi, minVerdi;
 float dif;
 
 // Grensen for differansen mellom den største verdien og den minste verdien. Når denne grensen overskrides, går enheten fra inaktiveT til aktiv modus.
-const float difGrense = 0.05; 
+const float difGrense = 0.1; 
 int count;
 unsigned long timer = 0;   // Tidsteller for perioden for endring fra inaktiv til aktiveT modus
-unsigned long mellomTid = 10000; // Tidsintervallet i ms, til å bytte fra inaktiv til aktive modus
+unsigned long mellomTid = 60000; // Tidsintervallet i ms, til å bytte fra inaktiv til aktive modus
 unsigned long tid = 0;
 unsigned long aktiveT = 0; // Tid ut senga
 unsigned long inaktiveT = 0; // Tid i senga
