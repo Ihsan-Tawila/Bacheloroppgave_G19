@@ -46,7 +46,7 @@ float finneDifAcc(){
 }
 
 // Den tar to parametere den aktive og inaktiveTe tiden i millisekunder, 
-// og konverterer den til timer, minutter og sekunder, og viser den på skjermen
+// og konverterer den til timer, minutter, og viser den på skjermen
 void printResultat(unsigned long Aktiv,unsigned long inaktiveT){
  
   // Bestem størrelsen og fargen på skriften og hvor den aktive tiden skal skrives ut på skjermen
